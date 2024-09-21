@@ -22,6 +22,7 @@ The primary objective of this project is to apply Hierarchical Clustering  to id
 - [Dataset](#dataset)
 - [Methodology](#methodology)
 - [Results](#results)
+- [Contact](#contact)
   
 ## Introduction
 The Senate is often polarized along party lines, but there are instances where bipartisan cooperation occurs. By applying Hierarchical Clustering, this project aims to group senators based on the similarity of their voting records, revealing key insights into voting blocks, outliers, and coalition building.
@@ -63,6 +64,23 @@ A Dendrogram is generated to visualize the hierarchical structure of clusters.
 ## Results
 The clustering results reveal clear divisions along party lines but also highlight bipartisan clusters and outliers.
 A dendrogram visualizes how senators are grouped based on their voting patterns.
+
+
+
+## dendrogram
+![sentor dendogram](https://github.com/user-attachments/assets/7f0417cc-f5e0-4854-8e79-18642eb657e0)
+
+## adjusted_rand_score
+![sentaor dendgram](https://github.com/user-attachments/assets/ae09dea4-f469-4273-b7f7-1e2ea8e3a987)
+
+
+ ## Visualization with Seaborn's cluster map
+ ![clustermap](https://github.com/user-attachments/assets/5c439a82-3590-43f9-bfc2-90a383b706f6)
+
+
+ ## Contact
+ 
+
 
 
 
