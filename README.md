@@ -7,7 +7,14 @@
 ![Matplotlib](https://img.shields.io/badge/Library-Matplotlib-lightblue)
 
 ## Project Overview
-This project explores the voting patterns of U.S. Senators using Hierarchical Clustering to identify natural groupings based on their voting behaviors. The clustering reveals alliances, polarization, and bipartisan voting blocks within the Senate, offering a fresh perspective on political dynamics.
+The Senate Voting Patterns Using Hierarchical Clustering project aims to uncover patterns in the voting behavior of senators by employing a powerful machine learning technique known as Hierarchical Clustering. By clustering senators based on their voting records, the project reveals groupings and voting alliances within the Senate, which may not be evident through traditional analysis. These insights help in understanding political polarization, party loyalty, and the formation of coalitions across party lines. 
+
+## Objective
+The primary objective of this project is to apply Hierarchical Clustering  to identify natural groupings of senators based on their voting similarities. This clustering will:
+
+- Provide insights into voting blocks.
+- Reveal trends in bipartisan behaviour.
+- Identify senators who frequently cross party lines
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -21,21 +28,41 @@ The Senate is often polarized along party lines, but there are instances where b
 
 ## Features
 
-Hierarchical Clustering: Uses agglomerative clustering to create a hierarchy of voting similarities among senators.
-Visualization: Dendrogram plots visualize the clustering process and highlight voting groups.
-Voting Insights: Identifies patterns of party loyalty, bipartisan coalitions, and outlier behavior in the Senate.
+- Hierarchical Clustering: Uses agglomerative clustering to create a hierarchy of voting similarities among senators.
+- Visualization: Dendrogram plots visualize the clustering process and highlight voting groups.
+- Voting Insights: Identifies patterns of party loyalty, bipartisan coalitions, and outlier behavior in the Senate.
 
 ## Dataset
 The dataset includes:
 
+- name:  This column contains the names of the senators. Each row represents an individual senator.
+
+- party:  The political party affiliation of the senators. R stands for Republican, and D stands for Democrat.
+
+- state: The U.S. state that the senator represents. This is provided as a two-letter abbreviation (e.g., TN for Tennessee, NH for New Hampshire).
+
+- Bill_1, Bill_2, Bill_3, …, Bill_9:     These columns represent different bills that the senators voted on. Each bill is numbered accordingly (e.g., Bill_1, Bill_4, Bill_5, etc.).
+
+dataset link: https://www.kaggle.com/datasets/muhammadyasirsaleem/u-s-senate-voting-dataset
+
 
 ## Methodology
-Data Preprocessing: Voting records are cleaned and transformed into a numerical format.
-Clustering Algorithm:
-Hierarchical Clustering is applied using the Euclidean distance metric.
-The clustering algorithm groups senators based on voting similarity.
-Visualization: A Dendrogram is generated to visualize the hierarchical structure of clusters.
+
+1 Data Preprocessing: 
+
+Voting records are cleaned and transformed into a numerical format.
+
+2 Clustering Algorithm:
+
+Hierarchical Clustering is applied using the Euclidean distance metric. The clustering algorithm groups senators based on voting similarity.
+
+3 Visualization: 
+
+A Dendrogram is generated to visualize the hierarchical structure of clusters.
 
 ## Results
 The clustering results reveal clear divisions along party lines but also highlight bipartisan clusters and outliers.
 A dendrogram visualizes how senators are grouped based on their voting patterns.
+
+
+
