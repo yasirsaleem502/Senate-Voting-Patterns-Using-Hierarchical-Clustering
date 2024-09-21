@@ -79,7 +79,13 @@ A dendrogram visualizes how senators are grouped based on their voting patterns.
 
 
  ## Contact
- 
+
+-Author: Muhammad Yasir Saleem
+-Email: myasirsaleem94@gmail.com
+-LinkedIn:https://www.linkedin.com/in/muhammad-yasir-saleem/
+
+Feel free to reach out if you have any questions or need further information.
+
 
 
 
